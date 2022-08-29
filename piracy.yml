@@ -1,0 +1,622 @@
+# Page meta info, like heading, footer text and nav links
+pageInfo:
+  title: Dashy
+  description: Welcome to your new dashboard!
+  navLinks:
+  - title: GitHub
+    path: https://github.com/Lissy93/dashy
+  - title: Documentation
+    path: https://dashy.to/docs
+
+# Optional app settings and configuration
+appConfig:
+  theme: colorful
+
+# Main content - An array of sections, each containing an array of items
+sections:
+  - name: Getting Started
+    icon: fa-envelope
+    items:
+      - title: Base64DEncode
+        description: >-
+          Do you have to deal with Base64 format? Then this site is perfect for
+          you!
+        icon: https://cdn.base64decode.org/assets/images/b64-180.webp
+        url: https://www.base64decode.org/
+        target: newtab
+        id: 0_1481_basedencode
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+  - name: Private Trackers
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: AlphaRatio
+        description: A good starter tracker with lots of freeleech content.
+        icon: https://alpharatio.cc/favicon.ico
+        url: https://alpharatio.cc/login.php
+        target: newtab
+        id: 0_1594_alpharatio
+      - title: AnimeBytes
+        description: >-
+          community centralized around Japanese media, including anime, manga,
+          and music
+        icon: https://animebytes.tv/static/favicon-5fc4df4e68.ico
+        url: https://animebytes.tv/
+        target: newtab
+        id: 1_1594_animebytes
+      - title: Audionews
+        description: >-
+          Private torrent tracker for music production audio. (DJ apps, audio
+          editor, DAW apps, etc) Open signups on the 1st-2nd every month.
+        icon: https://audionews.org/favicon.ico
+        url: https://audionews.org/
+        id: 2_1594_audionews
+      - title: GazelleGames
+        description: Currently the largest private tracker for games.
+        icon: https://gazellegames.net/favicon.ico
+        url: https://gazellegames.net/login.php
+        target: newtab
+        id: 3_1594_gazellegames
+      - title: IPTorrents
+        description: Private tracker with movies, books, and more.
+        icon: https://iptorrents.com/favicon.ico
+        url: https://iptorrents.com/login.php
+        target: newtab
+        id: 4_1594_iptorrents
+      - title: Redacted
+        description: Largest private music tracker at 1.5 million torrents.
+        icon: https://redacted.ch/static/apple-touch-icon.png
+        url: https://redacted.ch/
+        target: newtab
+        id: 5_1594_redacted
+      - title: TorrentLeech
+        description: Well-known popular private tracker
+        icon: https://www.torrentleech.org/images/Tl_logo-White.png
+        url: https://www.torrentleech.org/
+        target: newtab
+        id: 6_1594_torrentleech
+      - title: Tracker Tracker
+        description: Comprehensive spreadsheet of private trackers (somewhat out of date)
+        url: >-
+          https://docs.google.com/spreadsheets/d/1zYZ2107xOZwQ37AjLTc5A4dUJl0ilg8oMrZyA0BGvc0/edit#gid=1357476050
+        target: newtab
+        id: 7_1594_trackertracker
+      - title: UHDBits
+        description: >-
+          UHDBits is a Vietnamese private torrent tracker focused on HD movies
+          and TV shows.
+        icon: https://uhdbits.org/favicon.ico
+        url: https://uhdbits.org/
+        target: newtab
+        id: 8_1594_uhdbits
+      - title: BakaBT
+        description: (BBT) a torrent tracker which specializes in serving anime fans
+        icon: https://bakabt.me/resources/img/bg_1366.png
+        url: https://bakabt.me/
+        target: newtab
+        id: 9_1594_bakabt
+      - title: Bibliotik (BI)
+        description: Popular ebooks/audiobooks private tracker
+        url: https://bibliotik.me/
+        target: newtab
+        id: 10_1594_bibliotikbi
+      - title: Bitspyder (BS)
+        description: >-
+          Bitspyder is an educational torrent site devoted to e-Learning content
+          such as e-Books, video courses, and audiobooks.
+        url: https://bitspyder.net/
+        target: newtab
+        id: 11_1594_bitspyderbs
+      - title: Blutopia (BLU)
+        description: Blutopia is a private tracker for HD movies and HD TV shows.
+        icon: https://blutopia.xyz/favicon.ico
+        url: https://blutopia.xyz/login
+        target: newtab
+        id: 12_1594_blutopiablu
+      - title: CGPeers (CGP)
+        description: >-
+          CGPeers is a private torrent tracker for all things computer graphics:
+          tutorials, graphics software, 3D, visual effects, design, and
+          computer-assisted art.
+        icon: https://cgpeers.to/favicon.ico
+        url: https://cgpeers.to/
+        target: newtab
+        id: 13_1594_cgpeerscgp
+      - title: Filelist (FL)
+        description: >-
+          Large Romanian general tracker with mostly English content. No RAR
+          files allowed. (Scene torrents are unrared, and then allowed.)
+        icon: https://filelist.io/styles/images/logo_login.png
+        url: https://filelist.io/
+        target: newtab
+        id: 14_1594_filelistfl
+      - title: HD-Space (HDS)
+        description: >-
+          HD-Space is a private torrent tracker hosting HD movies, TV shows, and
+          music torrents. Good tracker for beginners.
+        url: https://hd-space.org/
+        target: newtab
+        id: 15_1594_hdspacehds
+      - title: JPopsuki (JPop)
+        description: JPopsuki is a torrent tracker focused on Asian music.
+        icon: https://jpopsuki.eu/static/styles/public/favicon.ico
+        url: https://jpopsuki.eu/
+        target: newtab
+        id: 16_1594_jpopsukijpop
+      - title: MyAnonaMouse (MAM)
+        description: >-
+          Private E-Learning tracker with about 360 000 torrents including
+          audiobooks, e-learning, musicology, and radio.
+        icon: https://cdn.myanonamouse.net/apple-touch-icon.png?v=b
+        url: https://www.myanonamouse.net/
+        target: newtab
+        id: 17_1594_myanonamousemam
+      - title: MySpleen (MS)
+        description: >-
+          MySpleen is a private tracker which specialises in comedy, animation,
+          and TV series.
+        icon: https://www.myspleen.org/pic/logo.png
+        url: https://www.myspleen.org/
+        target: newtab
+        id: 18_1594_myspleenms
+      - title: PassThePopcorn (PTP)
+        description: Ratio-based torrent tracker for movies
+        icon: https://passthepopcorn.me/favicon.ico
+        url: https://passthepopcorn.me/
+        target: newtab
+        id: 19_1594_passthepopcornptp
+      - title: PolishTracker (PT)
+        description: >-
+          PolishTracker is the oldest private Polish tracker existing to this
+          day
+        icon: https://cdn.pte.nu/favicon.ico
+        url: https://pte.nu/login
+        target: newtab
+        id: 20_1594_polishtrackerpt
+      - title: PolishSource (PS)
+        description: PolishSource is a big private Polish ratio-less tracker
+        icon: >-
+          https://polishsource.cz/pic/apple/apple-touch-icon-120x120-precomposed.png
+        url: https://polishsource.cz/
+        target: newtab
+        id: 21_1594_polishsourceps
+      - title: PrivateHD (PhD)
+        description: >-
+          PrivateHD is a private BitTorrent tracker focused on high definition
+          movies and TV show torrents.
+        icon: https://privatehd.to/images/privatehd-favicon.png
+        url: https://privatehd.to
+        target: newtab
+        id: 22_1594_privatehdphd
+      - title: TheGeeks (TGBZ)
+        description: Private tracker for e-learning
+        url: https://thegeeks.click/login.php
+        target: newtab
+        id: 23_1594_thegeekstgbz
+      - title: TVChaos UK (TVCUK)
+        description: Private tracker for British television
+        icon: https://tvchaosuk.com/favicon.ico
+        url: https://tvchaosuk.com/
+        target: newtab
+        id: 24_1594_tvchaosuktvcuk
+      - title: ruTracker
+        description: >-
+          RuTracker is a huge Russian torrent site with a thriving file-sharing
+          community.
+        icon: https://rutracker.org/favicon.ico
+        url: https://rutracker.org/forum/index.php
+        target: newtab
+        id: 25_1594_rutracker
+  - name: Public Trackers
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: 1337x
+        description: 1337x is a torrent site that offers verified torrent downloads.
+        icon: https://1337x.to/favicon.ico
+        url: https://1337x.to/
+        target: newtab
+        id: 0_1470_x
+      - title: EZTV
+        description: >-
+          EZTV is a torrent site for TV shows founded by TV-torrent distribution
+          group EZTV.
+        icon: https://eztv.re/favicon.ico
+        url: https://eztv.re/
+        target: newtab
+        id: 1_1470_eztv
+      - title: Isohunt2
+        description: Clone of the original isoHunt torrent index and repository
+        icon: https://isohunt.nz/static/img/favicon.ico
+        url: https://isohunt.nz/
+        target: newtab
+        id: 2_1470_isohunt
+      - title: RARBG
+        description: Community-made reincarnation launched in 2016
+        url: https://rarbg.to/
+        target: newtab
+        id: 3_1470_rarbg
+      - title: YTS
+        description: Small-size HD movies from YIFY
+        icon: https://yts.mx/assets/images/website/favicon.ico
+        url: https://yts.mx/
+        target: newtab
+        id: 4_1470_yts
+      - title: The Pirate Bay
+        description: >-
+          Infamous torrent site which is somehow still running, blocked in most
+          places but can be accessed via numerous proxy sites
+        icon: https://torrindex.net/images/tpb.jpg
+        url: https://thepiratebay.org/index.html
+        target: newtab
+        id: 5_1470_thepiratebay
+      - title: Idope (Clone)
+        description: >-
+          iDope is a torrent search engine presenting direct magnet links,
+          comments and up to date seeder/leecher statistics.
+        icon: https://idope.se/static/search/pc/img/favicon.ico
+        url: https://idope.se/
+        target: newtab
+        id: 6_1470_idopeclone
+      - title: GloTorrents
+        description: Download Movies, TV, Games and Other Torrents Free
+        icon: https://glodls.to/themes/V2/images/ico/favicon.ico
+        url: https://glodls.to/
+        target: newtab
+        id: 7_1470_glotorrents
+      - title: MagnetDL
+        description: Magnet link only search engine
+        url: https://www.magnetdl.com/
+        target: newtab
+        id: 8_1470_magnetdl
+      - title: metal-tracker.com
+        description: Heavy metal music tracker
+        icon: https://en.metal-tracker.com/images/favicon.ico
+        url: https://en.metal-tracker.com/
+        target: newtab
+        id: 9_1470_metaltrackercom
+      - title: Pirateiro
+        description: Pirateiro is a torrent index for Brazilian and Portuguese torrents.
+        icon: https://pirateiro.com/use/img/thumb.png
+        url: https://pirateiro.com/use/img/thumb.png
+        target: newtab
+        id: 10_1470_pirateiro
+  - name: Trackers
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: r/trackers
+        description: A subreddit for discussing public & private trackers.
+        icon: >-
+          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-144x144.png
+        url: https://www.reddit.com/r/trackers
+        target: newtab
+        id: 0_831_rtrackers
+      - title: A Simple Guide To A Better Ratio
+        description: >-
+          A good tracker requires you to upload what you download. This guide
+          explains many of the methods involved with keeping on top of this
+          sometimes difficult task.
+        icon: >-
+          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-144x144.png
+        url: >-
+          https://www.reddit.com/r/trackers/comments/fthja/a_simple_guide_to_a_better_ratio/
+        target: newtab
+        id: 1_831_asimpleguidetoabetterratio
+      - title: Tracker Twitters
+        description: >-
+          List Of Private Torrent Trackers & BitTorrent News Accounts To Follow
+          On Twitter
+        icon: https://filenetworks.blogspot.com/favicon.ico
+        url: >-
+          https://filenetworks.blogspot.com/2010/12/list-of-private-torrent-trackers.html
+        target: newtab
+        id: 2_831_trackertwitters
+      - title: Bravo List
+        description: Tracker directory Forum
+        url: https://www.bvlist.com/
+        target: newtab
+        id: 3_831_bravolist
+      - title: snowfl
+        description: >-
+          snowfl is a torrent aggregator which searches various public torrent
+          indexes in real-time
+        icon: https://snowfl.com/favicon.ico
+        url: https://snowfl.com/
+        target: newtab
+        id: 4_831_snowfl
+      - title: Torrents.me
+        description: >-
+          Torrents.me combines popular torrent sites and specialized private
+          trackers in a torrent multisearch.
+        icon: https://torrends.to/theme/assets/img/favicon.png
+        url: https://torrends.to/
+        target: newtab
+        id: 5_831_torrentsme
+      - title: SolidTorrents
+        description: A clean, privacy focused torrent search engine.
+        icon: https://solidtorrents.to/favicon-solidtorrents.ico
+        url: https://solidtorrents.to/
+        target: newtab
+        id: 6_831_solidtorrents
+      - title: /r/OpenSignups
+        description: Open Signups - When Private Trackers Open Their Doors To The Public
+        icon: >-
+          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-144x144.png
+        url: https://www.reddit.com/r/OpenSignups/
+        target: newtab
+        id: 7_831_ropensignups
+      - title: /r/Invites
+        description: Post wanted ads for private tracker invites here
+        icon: >-
+          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-144x144.png
+        url: https://www.reddit.com/r/invites
+        target: newtab
+        id: 8_831_rinvites
+      - title: Open sign-ups thread
+        description: >-
+          /r/trackers thread for posting trackers that are currently open for
+          registration.
+        icon: >-
+          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-144x144.png
+        url: https://www.reddit.com/r/trackers/comments/7ildxx/open_signups_thread/
+        target: newtab
+        id: 9_831_opensignupsthread
+      - title: Opentrackers.org
+        description: Private Torrent Trackers & File Sharing
+        icon: https://opentrackers.org/favicon.ico
+        url: https://opentrackers.org/
+        target: newtab
+        id: 10_831_opentrackersorg
+  - name: Download Managers
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Direct Download Sites
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Snahp
+        url: https://fora.snahp.eu/
+        target: newtab
+        id: 0_2011_snahp
+  - name: File Hosts
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Open Directories
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: HD Streaming
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Music
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Movies
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: IMDB
+        description: Find movies, TV shows, celebrities, and more
+        icon: Movies/imdb.png
+        url: https://www.imdb.com/
+        target: newtab
+        id: 0_627_imdb
+  - name: Games
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: r/CrackWatch
+        description: New video game crack releases are posted here
+        icon: >-
+          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-180x180.png
+        url: https://www.reddit.com/r/CrackWatch/
+        target: newtab
+        id: 0_493_rcrackwatch
+      - title: FreeGOGPCGames
+        description: Magnet links site to download games from GOG.
+        url: https://freegogpcgames.com/
+        target: newtab
+        id: 1_493_freegogpcgames
+      - title: CDRomance
+        description: >-
+          PSP, PSX, PS2, Gameboy, NDS, SNES, Dreamcast, and Gamecube ROMs and
+          ISOs.
+        icon: >-
+          https://cdromance.com/wp-content/uploads/2019/06/cropped-favicon-512-150x150.png
+        url: https://cdromance.com/
+        target: newtab
+        id: 2_493_cdromance
+      - title: Redump
+        description: >-
+          Disc preservation database and internet community dedicated to
+          collecting precise and accurate information about every video game
+          ever released on optical media of any system.
+        icon: http://redump.org/favicon.ico
+        url: http://redump.org/
+        target: newtab
+        id: 3_493_redump
+      - title: Fitgirl-Repacks
+        description: Popular DDL and torrent site for game repacks
+        icon: >-
+          https://fitgirl-repacks.site/wp-content/uploads/2016/08/cropped-icon-180x180.jpg
+        url: https://fitgirl-repacks.site/
+        target: newtab
+        id: 4_493_fitgirlrepacks
+  - name: Email
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: FakeMailGenerator
+        description: Your fake e-mail address is ready
+        icon: http://www.fakemailgenerator.com/apple-touch-icon-180x180.png
+        url: http://www.fakemailgenerator.com
+        target: newtab
+        id: 0_488_fakemailgenerator
+      - title: FakeMail
+        description: Temp Mail Address Protects Your Privacy
+        icon: https://fdn.r.worldssl.net/img/fake-email-address.png
+        url: https://www.fakemail.net/
+        target: newtab
+        id: 1_488_fakemail
+      - title: ProtonMail
+        description: Secure Email Based in Switzerland
+        icon: https://proton.me/favicons/apple-touch-icon.png
+        url: https://proton.me/mail
+        target: newtab
+        id: 2_488_protonmail
+      - title: https://cock.li/
+        description: Yeah it's mail with cocks
+        url: https://cock.li/
+        target: newtab
+        id: 3_488_httpscockli
+      - title: 10 Minute Mail
+        description: Disposable, private mailboxes
+        url: https://10minutemail.net/
+        target: newtab
+        id: 4_488_minutemail
+    icon: fa-solid fa-mailbox
+  - name: VPNs
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: r/VPNs
+        description: A community for VPN users and those who want to know more about them.
+        icon: >-
+          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-180x180.png
+        url: https://www.reddit.com/r/VPN/
+        target: newtab
+        id: 0_359_rvpns
+      - title: ExpressVPN
+        description: https://www.expressvpn.com/go/vpnmentor
+        icon: >-
+          https://www.expressvpn.com/frtr/assets/images/edsv2-favicon/apple-touch-icon.png
+        url: https://www.expressvpn.com/
+        target: newtab
+        id: 1_359_expressvpn
+      - title: PrivateInternetAccess
+        icon: >-
+          https://assets-cms.privateinternetaccess.com/img/frontend/pia-favicon_32x32.png?v=111010
+        url: https://www.privateinternetaccess.com/
+        target: newtab
+        id: 2_359_privateinternetaccess
+      - title: ProtonVPN
+        icon: https://protonvpn.com/assets/img/apple-touch-icon.png
+        url: https://protonvpn.com/
+        target: newtab
+        id: 3_359_protonvpn
+      - title: CyberGhost
+        icon: https://www.cyberghostvpn.com/offer/favicon.png
+        url: https://www.cyberghostvpn.com/
+        target: newtab
+        id: 4_359_cyberghost
+      - title: PrivateVPN
+        icon: https://privatevpn.com/_design/images/favicon.ico
+        url: https://privatevpn.com/
+        target: newtab
+        id: 5_359_privatevpn
+      - title: TunnelBear
+        icon: https://www.tunnelbear.com/apple-touch-icon-180x180.png
+        url: https://www.tunnelbear.com/
+        target: newtab
+        id: 6_359_tunnelbear
+      - title: n2n
+        description: >-
+          n2n is a light VPN software which makes it easy to create virtual
+          networks bypassing intermediate firewalls.
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/ntop/n2n
+        target: newtab
+        id: 7_359_nn
+      - title: PeerVPN
+        description: >-
+          PeerVPN is a software that builds virtual ethernet networks between
+          multiple computers.
+        url: https://peervpn.net/
+        target: newtab
+        id: 8_359_peervpn
+      - title: OpenVPN
+        description: >-
+          OpenVPN provides flexible VPN solutions to secure your data
+          communications, whether it's for Internet privacy, remote access for
+          employees, securing IoT, or for networking Cloud data centers.
+        icon: https://openvpn.net/wp-content/uploads/cropped-openvpn-180x180.png
+        url: https://openvpn.net/
+        target: newtab
+        id: 9_359_openvpn
+      - title: NordVPN
+        description: >-
+          encrypt your online activity to protect your private data from hackers
+          or snoopy advertisers.
+        icon: >-
+          https://s1.nordcdn.com/nordvpn/media/1.752.0/images/global/favicon/apple-touch-icon-144x144.png
+        url: https://nordvpn.com/
+        target: newtab
+        id: 10_359_nordvpn
+      - title: Mullvad
+        description: A Bitcoin-friendly, privacy-first VPN.
+        icon: https://mullvad.net/favicon.ico
+        url: https://mullvad.net/en/
+        target: newtab
+        id: 11_359_mullvad
