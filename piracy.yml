@@ -1,18 +1,11 @@
-# Page meta info, like heading, footer text and nav links
 pageInfo:
   title: Dashy
   description: Welcome to your new dashboard!
   navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
-appConfig:
-  theme: colorful
-
-# Main content - An array of sections, each containing an array of items
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+    - title: Documentation
+      path: https://dashy.to/docs
 sections:
   - name: Getting Started
     icon: fa-envelope
@@ -25,12 +18,894 @@ sections:
         url: https://www.base64decode.org/
         target: newtab
         id: 0_1481_basedencode
+      - title: Awesome Piracy
+        description: A curated list of arrrrrrrrr!
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/Igglybuff/awesome-piracy
+        target: newtab
+        id: 1_1481_awesomepiracy
     displayData:
       sortBy: default
       rows: 1
       cols: 1
       collapsed: false
       hideForGuests: false
+  - name: VPN Guides and Tutorials
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: That One Privacy Site
+        description: VPN section of That One Privacy Site with VPN comparisons
+        icon: https://www.safetydetectives.com/favicon.ico
+        url: https://www.safetydetectives.com/best-vpns/
+        target: newtab
+        id: 0_2223_thatoneprivacysite
+      - title: Choosing the VPN that's right for you
+        description: Helpful guide from the EFF
+        icon: https://ssd.eff.org/sites/all/themes/ssd/favicon.ico
+        url: https://ssd.eff.org/en/module/choosing-vpn-thats-right-you
+        target: newtab
+        id: 1_2223_choosingthevpnthatsrightforyou
+      - title: 'Which VPN services keep you anonymous in 2018? '
+        description: TorrentFreak Article by Ernesto
+        icon: https://torrentfreak.com/apple-touch-icon.png
+        url: https://torrentfreak.com/best-vpn-anonymous-no-logging/
+        target: newtab
+        id: 2_2223_whichvpnserviceskeepyouanonymousin
+      - title: privacytools.io
+        description: >-
+          "Encryption against global mass surveillance". Plenty of information
+          to help protect your privacy online.
+        icon: https://www.privacytools.io/img/favicons/apple-touch-icon.png
+        url: https://www.privacytools.io/
+        target: newtab
+        id: 3_2223_privacytoolsio
+      - title: VPN over SSH
+        description: >-
+          ArchWiki page describing how to achieve a poor man's VPN with SSH
+          tunneling
+        icon: https://wiki.archlinux.org/favicon.ico
+        url: https://wiki.archlinux.org/index.php/VPN_over_SSH
+        target: newtab
+        id: 4_2223_vpnoverssh
+      - title: /r/VPNTorrents
+        description: >-
+          This is for the discussion of torrenting (and similar P2P protocols)
+          using VPN type technology.
+        icon: https://www.redditstatic.com/desktop2x/img/favicon/ms-icon-144x144.png
+        url: https://www.reddit.com/r/VPNTorrents/
+        target: newtab
+        id: 5_2223_rvpntorrents
+      - title: r/VPNs
+        description: A community for VPN users and those who want to know more about them.
+        icon: >-
+          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-180x180.png
+        url: https://www.reddit.com/r/VPN/
+        target: newtab
+        id: 6_2223_rvpns
+  - name: VPN Subscription Services
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Mullvad
+        description: A Bitcoin-friendly, privacy-first VPN.
+        icon: https://mullvad.net/favicon.ico
+        url: https://mullvad.net/en/
+        target: newtab
+        id: 0_2429_mullvad
+      - title: ExpressVPN
+        description: https://www.expressvpn.com/go/vpnmentor
+        icon: >-
+          https://www.expressvpn.com/frtr/assets/images/edsv2-favicon/apple-touch-icon.png
+        url: https://www.expressvpn.com/
+        target: newtab
+        id: 1_2429_expressvpn
+      - title: CyberGhost
+        icon: https://www.cyberghostvpn.com/offer/favicon.png
+        url: https://www.cyberghostvpn.com/
+        target: newtab
+        id: 2_2429_cyberghost
+      - title: ProtonVPN
+        icon: https://protonvpn.com/assets/img/apple-touch-icon.png
+        url: https://protonvpn.com/
+        target: newtab
+        id: 3_2429_protonvpn
+      - title: TunnelBear
+        icon: https://www.tunnelbear.com/apple-touch-icon-180x180.png
+        url: https://www.tunnelbear.com/
+        target: newtab
+        id: 4_2429_tunnelbear
+      - title: NordVPN
+        description: >-
+          encrypt your online activity to protect your private data from hackers
+          or snoopy advertisers.
+        icon: >-
+          https://s1.nordcdn.com/nordvpn/media/1.752.0/images/global/favicon/apple-touch-icon-144x144.png
+        url: https://nordvpn.com/
+        target: newtab
+        id: 5_2429_nordvpn
+      - title: PrivateVPN
+        icon: https://privatevpn.com/_design/images/favicon.ico
+        url: https://privatevpn.com/
+        target: newtab
+        id: 6_2429_privatevpn
+  - name: Self-hosted VPNs
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: n2n
+        description: >-
+          n2n is a light VPN software which makes it easy to create virtual
+          networks bypassing intermediate firewalls.
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/ntop/n2n
+        target: newtab
+        id: 0_1477_nn
+      - title: OpenVPN
+        description: >-
+          OpenVPN provides flexible VPN solutions to secure your data
+          communications, whether it's for Internet privacy, remote access for
+          employees, securing IoT, or for networking Cloud data centers.
+        icon: https://openvpn.net/wp-content/uploads/cropped-openvpn-180x180.png
+        url: https://openvpn.net/
+        target: newtab
+        id: 1_1477_openvpn
+      - title: PeerVPN
+        description: >-
+          PeerVPN is a software that builds virtual ethernet networks between
+          multiple computers.
+        url: https://peervpn.net/
+        target: newtab
+        id: 2_1477_peervpn
+      - title: Nebula
+        description: >-
+          A scalable overlay networking tool with a focus on performance,
+          simplicity and security
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/slackhq/nebula
+        target: newtab
+        id: 3_1477_nebula
+      - title: Pritunl
+        description: Enterprise Distributed OpenVPN and IPsec Server
+        icon: https://pritunl.com/favicon.ico
+        url: https://pritunl.com/
+        target: newtab
+        id: 4_1477_pritunl
+      - title: WireGuard VPN
+        description: >-
+          WireGuard is an extremely simple yet fast and modern VPN that utilizes
+          state-of-the-art cryptography. It aims to be faster, simpler, leaner,
+          and more useful than IPSec.
+        icon: https://www.wireguard.com/img/icons/favicon-192.png
+        url: https://www.wireguard.com/
+        target: newtab
+        id: 5_1477_wireguardvpn
+      - title: sshuttle
+        description: Transparent proxy server that works as a poor man's VPN.
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/sshuttle/sshuttle
+        target: newtab
+        id: 6_1477_sshuttle
+      - title: ZeroTier
+        description: Peer-to-peer multi-platform VPN
+        icon: >-
+          https://www.zerotier.com/wp-content/uploads/2020/08/cropped-ZeroTierIcon-192x192-1.png
+        url: https://www.zerotier.com/
+        target: newtab
+        id: 7_1477_zerotier
+      - title: Outline by Alphabet
+        description: >-
+          Not exactly a VPN, but is strong in privacy and security. Works with
+          DO, Google Cloud, AWS and more.
+        icon: >-
+          https://www.getoutline.org/static/img/outline-favicon.png?cache=60b304a
+        url: https://www.getoutline.org/
+        target: newtab
+        id: 8_1477_outlinebyalphabet
+      - title: Mysterium Network
+        description: >-
+          Open-source VPN client and server software. It can be used to sell
+          your spare bandwidth for cryptocurrency.
+        icon: >-
+          https://static.wixstatic.com/media/5b19bf_ba818712c2114ba2b9596b9bac143e0b%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/5b19bf_ba818712c2114ba2b9596b9bac143e0b%7Emv2.png
+        url: https://www.mysterium.network/
+        target: newtab
+        id: 9_1477_mysteriumnetwork
+      - title: tinc
+        description: Peer-to-peer VPN software with mesh routing.
+        icon: https://tinc-vpn.org/images/tinclogo.png
+        url: https://tinc-vpn.org/
+        target: newtab
+        id: 10_1477_tinc
+      - title: OpenConnect
+        description: >-
+          Multiplatform VPN compatible with Cisco's AnyConnect. Uses
+          well-tested, standard TLS connections which easily bypass DPI.
+        icon: https://www.infradead.org/openconnect/images/openconnect.png
+        url: https://www.infradead.org/openconnect/
+        target: newtab
+        id: 11_1477_openconnect
+      - title: ShadowSocks
+        description: Secure SOCKS proxy used in China for bypassing the Great Firewall.
+        url: https://shadowsocks.org/
+        target: newtab
+        id: 12_1477_shadowsocks
+  - name: Browser Extensions
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Decentraleyes
+        description: >-
+          Protects against tracking with a local CDN (Content Delivery Network)
+          emulation.
+        icon: https://decentraleyes.org/favicon.ico
+        url: https://decentraleyes.org/
+        target: newtab
+        id: 0_1844_decentraleyes
+      - title: Privacy Badger
+        description: Privacy Badger blocks spying ads and invisible trackers.
+        icon: https://www.eff.org/sites/all/themes/frontier/favicon.ico
+        url: https://privacybadger.org/
+        target: newtab
+        id: 1_1844_privacybadger
+      - title: HTTPS Everywhere
+        description: >-
+          HTTPS Everywhere is a Firefox, Chrome, and Opera extension that
+          encrypts your communications with many major websites, making your
+          browsing more secure.
+        icon: https://www.eff.org/sites/all/themes/frontier/favicon.ico
+        url: https://www.eff.org/https-everywhere
+        target: newtab
+        id: 2_1844_httpseverywhere
+      - title: uBlock Origin
+        description: An efficient blocker for Chromium and Firefox. Fast and lean.
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/gorhill/uBlock
+        target: newtab
+        id: 3_1844_ublockorigin
+      - title: TamperMonkey
+        description: The world's most popular userscript manager
+        icon: https://ssl.gstatic.com/chrome/webstore/images/icon_144px.png
+        url: >-
+          https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
+        target: newtab
+        id: 4_1844_tampermonkey
+      - title: 'WebRTC Network Limiter '
+        description: >-
+          Configures how WebRTC's network traffic is routed by changing Chrome's
+          privacy settings.
+        icon: https://ssl.gstatic.com/chrome/webstore/images/icon_144px.png
+        url: >-
+          https://chrome.google.com/webstore/detail/webrtc-network-limiter/npeicpdbkakmehahjeeohfdhnlpdklia?hl=en
+        target: newtab
+        id: 5_1844_webrtcnetworklimiter
+      - title: ScriptSafe
+        description: >-
+          A browser extension that gives users control of the web and more
+          secure browsing while emphasizing simplicity and intuitiveness.
+        icon: https://ssl.gstatic.com/chrome/webstore/images/icon_144px.png
+        url: >-
+          https://chrome.google.com/webstore/detail/scriptsafe/oiigbmnaadbkfbmpbfijlflahbdbdgdf?hl=en
+        target: newtab
+        id: 6_1844_scriptsafe
+      - title: NoScript
+        description: >-
+          Allow active content to run only from sites you trust, and protect
+          yourself against XSS and clickjacking attacks. Firefox only.
+        icon: https://noscript.net/apple-touch-icon.png
+        url: https://noscript.net/getit/
+        target: newtab
+        id: 7_1844_noscript
+      - title: Burlesco
+        description: Read the news without subscribing, bypass the paywall
+        icon: https://burles.co/logo_semfundo.png
+        url: https://burles.co/en/
+        target: newtab
+        id: 8_1844_burlesco
+      - title: Universal Bypass
+        description: Universal Bypass automatically skips annoying link shorteners.
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/Sainan/Universal-Bypass
+        target: newtab
+        id: 9_1844_universalbypass
+      - title: Violentmonkey
+        description: An open-source userscript manager.
+        icon: >-
+          https://violentmonkey.github.io/static/vm-6437e4e5a400c6eff1c23ead4d549b0a.png
+        url: https://violentmonkey.github.io/
+        target: newtab
+        id: 10_1844_violentmonkey
+      - title: Anti-Paywall
+        description: A browser extension that maximizes the chances of bypassing paywalls
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/nextgens/anti-paywall
+        target: newtab
+        id: 11_1844_antipaywall
+      - title: Google Unlocked
+        description: Uncensor google search results.
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/Ibit-to/google-unlocked
+        target: newtab
+        id: 12_1844_googleunlocked
+  - name: Userscripts
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: IMDb Scout
+        description: Add links from IMDb pages to torrent sites. easy downloading from IMDb
+        icon: >-
+          https://greasyfork.org/packs/media/images/blacklogo96-b2384000fca45aa17e45eb417cbcbb59.png
+        url: https://greasyfork.org/en/scripts/3967-imdb-scout
+        target: newtab
+        id: 0_1191_imdbscout
+      - title: IMDb Scout Mod
+        description: >-
+          Adds links to IMDb pages from the torrent, ddl, subtitles, streaming,
+          usenet and other sites.
+        icon: >-
+          https://greasyfork.org/packs/media/images/blacklogo96-b2384000fca45aa17e45eb417cbcbb59.png
+        url: https://greasyfork.org/en/scripts/407284-imdb-scout-mod
+        target: newtab
+        id: 1_1191_imdbscoutmod
+      - title: AdsBypasser
+        description: >-
+          This user script helps you to skip countdown ads or continue pages and
+          prevent ad pop-up windows.
+        url: https://adsbypasser.github.io/
+        target: newtab
+        id: 2_1191_adsbypasser
+      - title: Direct download from Google Play
+        description: >-
+          Adds APKPure, APKMirror and Evozi download buttons to Google Play when
+          browsing apps.
+        icon: >-
+          https://greasyfork.org/packs/media/images/blacklogo96-b2384000fca45aa17e45eb417cbcbb59.png
+        url: >-
+          https://greasyfork.org/en/scripts/33005-direct-download-from-google-play/
+        target: newtab
+        id: 3_1191_directdownloadfromgoogleplay
+      - title: AdGuard Popup Blocker
+        description: >-
+          Popup Blocker by AdGuard is a userscript that blocks all unwanted
+          pop-up windows in different browsers.
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/AdguardTeam/PopupBlocker
+        target: newtab
+        id: 4_1191_adguardpopupblocker
+      - title: Torrentz2 Magnet
+        description: Add magnet link to torrentz2
+        icon: >-
+          https://greasyfork.org/packs/media/images/blacklogo96-b2384000fca45aa17e45eb417cbcbb59.png
+        url: https://greasyfork.org/en/scripts/21547-torrentz2-magnet
+        target: newtab
+        id: 5_1191_torrentzmagnet
+      - title: Bypass paywalls for scientific documents
+        description: >-
+          This script adds download buttons on Google Scholar, Scopus, and Web
+          Of Science, which lead to sci-hub.tw.
+        icon: >-
+          https://greasyfork.org/packs/media/images/blacklogo96-b2384000fca45aa17e45eb417cbcbb59.png
+        url: >-
+          https://greasyfork.org/en/scripts/35521-bypass-paywalls-for-scientific-documents
+        target: newtab
+        id: 6_1191_bypasspaywallsforscientificdocuments
+      - title: 'Bypass Google Sorry (reCAPTCHA) '
+        description: Redirect Google reCAPTCHA to a new search window.
+        icon: >-
+          https://greasyfork.org/packs/media/images/blacklogo96-b2384000fca45aa17e45eb417cbcbb59.png
+        url: https://greasyfork.org/en/scripts/33226-bypass-google-sorry-recaptcha
+        target: newtab
+        id: 7_1191_bypassgooglesorryrecaptcha
+      - title: Google Image "View Image" button
+        description: Add "View Image" button. This is a fork of the original.
+        icon: >-
+          https://greasyfork.org/packs/media/images/blacklogo96-b2384000fca45aa17e45eb417cbcbb59.png
+        url: https://greasyfork.org/en/scripts/392076-google-images-direct-link-fix
+        target: newtab
+        id: 8_1191_googleimageviewimagebutton
+      - title: MoreCAPTCHA
+        description: >-
+          Speeds up solving Google reCAPTCHA challenges by shortening transition
+          effects and providing continuous selection ability.
+        icon: >-
+          https://greasyfork.org/packs/media/images/blacklogo96-b2384000fca45aa17e45eb417cbcbb59.png
+        url: https://greasyfork.org/en/scripts/31088-morecaptcha
+        target: newtab
+        id: 9_1191_morecaptcha
+      - title: MAL-Sync
+        description: Integrates MyAnimeList into various sites, with auto episode tracking.
+        icon: >-
+          https://greasyfork.org/packs/media/images/blacklogo96-b2384000fca45aa17e45eb417cbcbb59.png
+        url: >-
+          https://greasyfork.org/en/scripts/372847-mal-sync-deprecated-on-greasyfork
+        target: newtab
+        id: 10_1191_malsync
+      - title: The Pirate Bay Cleaner
+        description: >-
+          Auto-sorting, torrentifying, theme-change, search-change, SSL/HTTPS
+          and more.
+        icon: >-
+          https://greasyfork.org/packs/media/images/blacklogo96-b2384000fca45aa17e45eb417cbcbb59.png
+        url: https://greasyfork.org/en/scripts/1573-the-pirate-bay-cleaner
+        target: newtab
+        id: 11_1191_thepiratebaycleaner
+  - name: Password Vaults
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: BitWarden
+        description: Open source password management solution, can be self-hosted
+        icon: >-
+          https://bitwarden.com/icons/icon-96x96.png?v=1abf57d1154002a9fac426a2c5c04d85
+        url: https://bitwarden.com/
+        target: newtab
+        id: 0_1522_bitwarden
+      - title: 1Password
+        description: Popular cloud-hosted password manager
+        icon: https://1password.com/favicon.ico
+        url: https://1password.com/
+        target: newtab
+        id: 1_1522_password
+      - title: KeePass
+        description: 'Free, open source, light-weight, and easy-to-use password manager. '
+        icon: https://keepass.info/favicon.ico
+        url: https://keepass.info/
+        target: newtab
+        id: 2_1522_keepass
+      - title: LastPass
+        description: LastPass remembers all your passwords, so you don't have to.
+        icon: https://www.lastpass.com/-/media/43c6c6862a08410a8ef34ab46a3a750b.ico
+        url: https://www.lastpass.com/
+        target: newtab
+        id: 3_1522_lastpass
+      - title: Pass
+        description: Simple GPG/Git password manager. Follows the Unix philosophy.
+        url: https://www.passwordstore.org/
+        target: newtab
+        id: 4_1522_pass
+      - title: Dashlane
+        description: >-
+          An intuitive password manager with over with over 8 million users
+          worldwide.
+        icon: >-
+          https://d38muu3h4xeqr1.cloudfront.net/website/static/DG-6682/images/apple-touch-icon-iphone2x.png
+        url: https://www.dashlane.com/
+        target: newtab
+        id: 5_1522_dashlane
+      - title: Passbolt
+        description: Free, open source, self-hosted, extensible, OpenPGP based.
+        icon: https://www.passbolt.com/favicon.ico
+        url: https://www.passbolt.com/
+        target: newtab
+        id: 6_1522_passbolt
+      - title: LessPass
+        description: Stateless open source password manager
+        icon: https://www.lesspass.com/apple-touch-icon-120x120.png
+        url: https://www.lesspass.com/#/
+        target: newtab
+        id: 7_1522_lesspass
+      - title: Psono
+        description: Open source and self-hosted password manager for teams
+        icon: >-
+          https://psono.com/icons/icon-144x144.png?v=77cde1eea0038d6099932efc201704e5
+        url: https://psono.com/
+        target: newtab
+        id: 8_1522_psono
+      - title: Buttercup
+        description: >-
+          Another open source password manager with desktop, mobile, and browser
+          clients.
+        icon: https://buttercup.pw/static/img/buttercup.ico
+        url: https://buttercup.pw/
+        target: newtab
+        id: 9_1522_buttercup
+  - name: Antivirus
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: MalwareBytes
+        description: >-
+          "crushes malware so you are protected and your machine keeps running
+          smoothly."
+        icon: https://www.malwarebytes.com/images/apple-touch-icon-144x144.png
+        url: https://www.malwarebytes.com/
+        target: newtab
+        id: 0_965_malwarebytes
+      - title: HitmanPro
+        description: Antivirus product from Sophos
+        icon: >-
+          https://www.hitmanpro.com/themes/custom/hitmanpro/favicons/apple-touch-icon.png
+        url: https://www.hitmanpro.com/en-us
+        target: newtab
+        id: 1_965_hitmanpro
+      - title: VirusTotal
+        description: Web service for scanning files and URLs for viruses
+        icon: https://www.virustotal.com/gui/images/favicon.png
+        url: https://www.virustotal.com/gui/home/upload
+        target: newtab
+        id: 2_965_virustotal
+      - title: How to remove viruses and malware on your Windows PC
+        description: Helpful HowToGeek article on cleaning out the pipes
+        icon: https://www.howtogeek.com/public/images/192x192.png
+        url: >-
+          https://www.howtogeek.com/126911/what-to-do-if-you-get-a-virus-on-your-computer/
+        target: newtab
+        id: 3_965_howtoremovevirusesandmalwareonyourwindowspc
+      - title: Avast Antivirus
+        description: >-
+          Avast Antivirus is a multi-platform antivirus application with a free
+          tier. Be sure to opt-out of sending anonymous usage statistics.
+        icon: >-
+          https://static3.avast.com/10002541/web/i/v2/components/logos/avast-logos/seo/apple-touch-icon.png?v=2
+        url: https://www.avast.com/en-us/index#pc
+        target: newtab
+        id: 4_965_avastantivirus
+  - name: Privacy
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Prism Break
+        description: >-
+          Opt out of global data surveillance programs like PRISM, XKeyscore,
+          and Tempora.
+        icon: >-
+          https://prism-break.org/assets/icons/apple-touch-icon-144-precomposed.png
+        url: https://prism-break.org/en/
+        target: newtab
+        id: 0_734_prismbreak
+      - title: /r/privacy
+        description: >-
+          The intersection of technology, privacy, and freedom in a digital
+          world.
+        icon: https://www.redditstatic.com/desktop2x/img/favicon/ms-icon-144x144.png
+        url: https://www.reddit.com/r/privacy/
+        target: newtab
+        id: 1_734_rprivacy
+      - title: Any Soft Keyboard
+        description: A privacy-focused keyboard
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/AnySoftKeyboard/AnySoftKeyboard
+        target: newtab
+        id: 2_734_anysoftkeyboard
+  - name: Windows 10 Privacy
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: O&O ShutUp10
+        description: >-
+          O&O ShutUp10 means you have full control over which comfort functions
+          under Windows 10 you wish to use, and you decide when the passing on
+          of your data goes too far.
+        icon: >-
+          https://www.oo-software.com/oocontent/themes/oo2017/images/logos/apple-touch-icon-114x114.png?v=2
+        url: https://www.oo-software.com/en/shutup10
+        target: newtab
+        id: 0_1642_ooshutup
+      - title: Windows 10 Privacy Guide
+        description: >-
+          an In-depth guide on purging Windows 10 of Microsoft's attempts to
+          track you
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/adolfintel/Windows10-Privacy
+        target: newtab
+        id: 1_1642_windowsprivacyguide
+      - title: Winaero
+        description: Free, small and useful software for Windows.
+        icon: https://winaero.com/blog/wp-content/uploads/WinaeroT.png
+        url: https://winaero.com/about-us/
+        target: newtab
+        id: 2_1642_winaero
+      - title: WPD
+        description: The real privacy dashboard for Windows
+        icon: https://wpd.app/assets/favicon/apple-touch-icon.png?v=rMloNemQaB
+        url: https://wpd.app/
+        target: newtab
+        id: 3_1642_wpd
+      - title: 'Destroy-Windows-10-Spying '
+        description: Destroy Windows Spying tool
+        icon: https://www.majorgeeks.com/images/logos/majorgeeks.gif
+        url: >-
+          https://www.majorgeeks.com/files/details/destroy_windows_10_spying.html
+        target: newtab
+        id: 4_1642_destroywindowsspying
+      - title: Tron
+        description: Tron, an automated PC cleanup script
+        icon: https://www.redditstatic.com/desktop2x/img/favicon/ms-icon-144x144.png
+        url: https://www.reddit.com/r/TronScript
+        target: newtab
+        id: 5_1642_tron
+      - title: Tallow
+        description: >-
+          Tallow is a transparent Tor firewall and proxying solution for
+          Windows.
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/basil00/TorWall
+        target: newtab
+        id: 6_1642_tallow
+  - name: Email
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: FakeMailGenerator
+        description: Your fake e-mail address is ready
+        icon: http://www.fakemailgenerator.com/apple-touch-icon-180x180.png
+        url: http://www.fakemailgenerator.com
+        target: newtab
+        id: 0_488_fakemailgenerator
+      - title: FakeMail
+        description: Temp Mail Address Protects Your Privacy
+        icon: https://fdn.r.worldssl.net/img/fake-email-address.png
+        url: https://www.fakemail.net/
+        target: newtab
+        id: 1_488_fakemail
+      - title: ProtonMail
+        description: Secure Email Based in Switzerland
+        icon: https://proton.me/favicons/apple-touch-icon.png
+        url: https://proton.me/mail
+        target: newtab
+        id: 2_488_protonmail
+      - title: https://cock.li/
+        description: Yeah it's mail with cocks
+        url: https://cock.li/
+        target: newtab
+        id: 3_488_httpscockli
+      - title: 10 Minute Mail
+        description: Disposable, private mailboxes
+        url: https://10minutemail.net/
+        target: newtab
+        id: 4_488_minutemail
+      - title: Tutanota
+        description: Secure, open source email service
+        icon: https://tutanota.com/resources/favicon/logo-favicon-152.png
+        url: https://tutanota.com/
+        target: newtab
+        id: 5_488_tutanota
+    icon: fa-solid fa-mailbox
+  - name: Operating Systems
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Qubes OS
+        description: Qubes OS is a security-oriented operating system
+        icon: >-
+          https://www.qubes-os.org/attachment/icons/512x512/apps/qubes-logo-icon.png
+        url: https://www.qubes-os.org/
+        target: newtab
+        id: 0_1729_qubesos
+      - title: Tails
+        description: >-
+          Tails is a live operating system that you can start on almost any
+          computer from a USB stick or a DVD.
+        icon: https://tails.boum.org/favicon.ico
+        url: https://tails.boum.org/
+        target: newtab
+        id: 1_1729_tails
+  - name: Decentralised Networks
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Tor
+        description: ' Tor is free software and an open network that helps you defend against traffic analysis.'
+        icon: https://www.torproject.org/static/images/favicon/favicon.ico
+        url: https://www.torproject.org/
+        target: newtab
+        id: 0_2228_tor
+      - title: I2P
+        description: >-
+          I2P is an anonymous overlay network - a network within a network. It
+          is intended to protect communication from dragnet surveillance and
+          monitoring by third parties such as ISPs.
+        icon: https://geti2p.net/_static/favicon.ico
+        url: https://geti2p.net/en/
+        target: newtab
+        id: 1_2228_ip
+      - title: Freenet
+        description: >-
+          Freenet is free software which lets you anonymously share files,
+          browse and publish "freesites" (web sites accessible only through
+          Freenet) and chat on forums, without fear of censorship.
+        url: https://freenetproject.org/
+        target: newtab
+        id: 2_2228_freenet
+      - title: Zeronet
+        description: >-
+          Open, free and uncensorable websites, using Bitcoin cryptography and
+          BitTorrent network
+        url: https://zeronet.io/
+        target: newtab
+        id: 3_2228_zeronet
+      - title: Loki
+        description: >-
+          Lokinet is an anonymous, decentralized and IP based overlay network
+          for the internet.
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/oxen-io/lokinet
+        target: newtab
+        id: 4_2228_loki
+      - title: IPFS
+        description: >-
+          A peer-to-peer hypermedia protocol designed to make the web faster,
+          safer, and more open.
+        icon: https://ipfs.tech/favicon.ico
+        url: https://ipfs.tech/
+        target: newtab
+        id: 5_2228_ipfs
+      - title: Yggdrasil
+        description: >-
+          Makes use of a global spanning tree to form a scalable IPv6 encrypted
+          mesh network.
+        url: https://yggdrasil-network.github.io/about.html
+        target: newtab
+        id: 6_2228_yggdrasil
+  - name: Domain Names
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Njalla
+        description: a privacy-aware domain registration service
+        icon: https://njal.la/favicon.ico
+        url: https://njal.la/
+        target: newtab
+        id: 0_1132_njalla
+      - title: Domainr
+        description: >-
+          Domainr finds domain names and short URLs. Instantly check
+          availability and register for all top-level domains.
+        icon: https://domainr.com/_/images/icons/apple-touch-icon.png
+        url: https://domainr.com/
+        target: newtab
+        id: 1_1132_domainr
+  - name: Torrenting
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Trackers
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: r/trackers
+        description: A subreddit for discussing public & private trackers.
+        icon: >-
+          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-144x144.png
+        url: https://www.reddit.com/r/trackers
+        target: newtab
+        id: 0_831_rtrackers
+      - title: A Simple Guide To A Better Ratio
+        description: >-
+          A good tracker requires you to upload what you download. This guide
+          explains many of the methods involved with keeping on top of this
+          sometimes difficult task.
+        icon: >-
+          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-144x144.png
+        url: >-
+          https://www.reddit.com/r/trackers/comments/fthja/a_simple_guide_to_a_better_ratio/
+        target: newtab
+        id: 1_831_asimpleguidetoabetterratio
+      - title: Tracker Twitters
+        description: >-
+          List Of Private Torrent Trackers & BitTorrent News Accounts To Follow
+          On Twitter
+        icon: https://filenetworks.blogspot.com/favicon.ico
+        url: >-
+          https://filenetworks.blogspot.com/2010/12/list-of-private-torrent-trackers.html
+        target: newtab
+        id: 2_831_trackertwitters
+      - title: Bravo List
+        description: Tracker directory Forum
+        url: https://www.bvlist.com/
+        target: newtab
+        id: 3_831_bravolist
+      - title: snowfl
+        description: >-
+          snowfl is a torrent aggregator which searches various public torrent
+          indexes in real-time
+        icon: https://snowfl.com/favicon.ico
+        url: https://snowfl.com/
+        target: newtab
+        id: 4_831_snowfl
+      - title: Torrents.me
+        description: >-
+          Torrents.me combines popular torrent sites and specialized private
+          trackers in a torrent multisearch.
+        icon: https://torrends.to/theme/assets/img/favicon.png
+        url: https://torrends.to/
+        target: newtab
+        id: 5_831_torrentsme
+      - title: SolidTorrents
+        description: A clean, privacy focused torrent search engine.
+        icon: https://solidtorrents.to/favicon-solidtorrents.ico
+        url: https://solidtorrents.to/
+        target: newtab
+        id: 6_831_solidtorrents
+      - title: /r/OpenSignups
+        description: Open Signups - When Private Trackers Open Their Doors To The Public
+        icon: >-
+          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-144x144.png
+        url: https://www.reddit.com/r/OpenSignups/
+        target: newtab
+        id: 7_831_ropensignups
+      - title: /r/Invites
+        description: Post wanted ads for private tracker invites here
+        icon: >-
+          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-144x144.png
+        url: https://www.reddit.com/r/invites
+        target: newtab
+        id: 8_831_rinvites
+      - title: Open sign-ups thread
+        description: >-
+          /r/trackers thread for posting trackers that are currently open for
+          registration.
+        icon: >-
+          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-144x144.png
+        url: https://www.reddit.com/r/trackers/comments/7ildxx/open_signups_thread/
+        target: newtab
+        id: 9_831_opensignupsthread
+      - title: Opentrackers.org
+        description: Private Torrent Trackers & File Sharing
+        icon: https://opentrackers.org/favicon.ico
+        url: https://opentrackers.org/
+        target: newtab
+        id: 10_831_opentrackersorg
   - name: Private Trackers
     displayData:
       sortBy: default
@@ -216,6 +1091,14 @@ sections:
         url: https://rutracker.org/forum/index.php
         target: newtab
         id: 25_1594_rutracker
+  - name: Semi-Private Trackers
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
   - name: Public Trackers
     displayData:
       sortBy: default
@@ -294,98 +1177,7 @@ sections:
         url: https://pirateiro.com/use/img/thumb.png
         target: newtab
         id: 10_1470_pirateiro
-  - name: Trackers
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: r/trackers
-        description: A subreddit for discussing public & private trackers.
-        icon: >-
-          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-144x144.png
-        url: https://www.reddit.com/r/trackers
-        target: newtab
-        id: 0_831_rtrackers
-      - title: A Simple Guide To A Better Ratio
-        description: >-
-          A good tracker requires you to upload what you download. This guide
-          explains many of the methods involved with keeping on top of this
-          sometimes difficult task.
-        icon: >-
-          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-144x144.png
-        url: >-
-          https://www.reddit.com/r/trackers/comments/fthja/a_simple_guide_to_a_better_ratio/
-        target: newtab
-        id: 1_831_asimpleguidetoabetterratio
-      - title: Tracker Twitters
-        description: >-
-          List Of Private Torrent Trackers & BitTorrent News Accounts To Follow
-          On Twitter
-        icon: https://filenetworks.blogspot.com/favicon.ico
-        url: >-
-          https://filenetworks.blogspot.com/2010/12/list-of-private-torrent-trackers.html
-        target: newtab
-        id: 2_831_trackertwitters
-      - title: Bravo List
-        description: Tracker directory Forum
-        url: https://www.bvlist.com/
-        target: newtab
-        id: 3_831_bravolist
-      - title: snowfl
-        description: >-
-          snowfl is a torrent aggregator which searches various public torrent
-          indexes in real-time
-        icon: https://snowfl.com/favicon.ico
-        url: https://snowfl.com/
-        target: newtab
-        id: 4_831_snowfl
-      - title: Torrents.me
-        description: >-
-          Torrents.me combines popular torrent sites and specialized private
-          trackers in a torrent multisearch.
-        icon: https://torrends.to/theme/assets/img/favicon.png
-        url: https://torrends.to/
-        target: newtab
-        id: 5_831_torrentsme
-      - title: SolidTorrents
-        description: A clean, privacy focused torrent search engine.
-        icon: https://solidtorrents.to/favicon-solidtorrents.ico
-        url: https://solidtorrents.to/
-        target: newtab
-        id: 6_831_solidtorrents
-      - title: /r/OpenSignups
-        description: Open Signups - When Private Trackers Open Their Doors To The Public
-        icon: >-
-          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-144x144.png
-        url: https://www.reddit.com/r/OpenSignups/
-        target: newtab
-        id: 7_831_ropensignups
-      - title: /r/Invites
-        description: Post wanted ads for private tracker invites here
-        icon: >-
-          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-144x144.png
-        url: https://www.reddit.com/r/invites
-        target: newtab
-        id: 8_831_rinvites
-      - title: Open sign-ups thread
-        description: >-
-          /r/trackers thread for posting trackers that are currently open for
-          registration.
-        icon: >-
-          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-144x144.png
-        url: https://www.reddit.com/r/trackers/comments/7ildxx/open_signups_thread/
-        target: newtab
-        id: 9_831_opensignupsthread
-      - title: Opentrackers.org
-        description: Private Torrent Trackers & File Sharing
-        icon: https://opentrackers.org/favicon.ico
-        url: https://opentrackers.org/
-        target: newtab
-        id: 10_831_opentrackersorg
-  - name: Download Managers
+  - name: Tracker Aggregators
     displayData:
       sortBy: default
       rows: 1
@@ -393,7 +1185,546 @@ sections:
       collapsed: false
       hideForGuests: false
     items: []
-  - name: Direct Download Sites
+  - name: Tracker Proxies
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Tracker Invites
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Torrent Clients - Deluge
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Torrent Clients
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Seedboxes
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: /r/seedboxes
+        description: A place to discuss seedboxes and everything related to them.
+        icon: https://www.redditstatic.com/desktop2x/img/favicon/ms-icon-144x144.png
+        url: https://www.reddit.com/r/seedboxes
+        target: newtab
+        id: 0_930_rseedboxes
+      - title: SeedSync
+        description: >-
+          SeedSync is a GUI-configurable, LFTP-based file transfer and
+          management program.
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/ipsingh06/seedsync
+        target: newtab
+        id: 1_930_seedsync
+      - title: Seedr
+        description: >-
+          Essentially a seedbox you can paste torrents into which returns a
+          streamable direct link
+        icon: https://static.seedr.cc/images/seed_v2.png
+        url: https://www.seedr.cc/
+        target: newtab
+        id: 2_930_seedr
+      - title: Bitport.io
+        description: >-
+          Another direct download site for pasting magnet links or .torrent
+          files. Free accounts offer 1GB for free.
+        icon: https://bitport.io/assets/presentation/img/favicon.png
+        url: https://bitport.io/welcome
+        target: newtab
+        id: 3_930_bitportio
+      - title: Put.io
+        description: $0.99 1 day trial
+        icon: https://put.io/images/apple-touch-icon-114x114.png
+        url: https://put.io/
+        target: newtab
+        id: 4_930_putio
+      - title: CheckServers.OVH
+        description: Checks the availability of OVH servers.
+        url: https://checkservers.ovh/
+        target: newtab
+        id: 5_930_checkserversovh
+      - title: Bytesized Hosting
+        description: '"The best Plex server hosting in town"'
+        icon: https://bytesized-hosting.com/apple-touch-icon.png
+        url: https://bytesized-hosting.com/
+        target: newtab
+        id: 6_930_bytesizedhosting
+      - title: FeralHosting
+        description: Shared seedbox hosting provider
+        icon: https://www.feralhosting.com/assets/images/favicon.ico
+        url: https://www.feralhosting.com/pricing
+        target: newtab
+        id: 7_930_feralhosting
+      - title: Whatbox
+        description: Whatbox is a BitTorrent CDN
+        icon: https://whatbox.ca/static/logo/logo-background-180.png
+        url: https://whatbox.ca/plans
+        target: newtab
+        id: 8_930_whatbox
+      - title: Seedboxes.cc
+        description: >-
+          Reliable and affordable web hosting, with the power of your friendly
+          monsters!
+        url: https://seedboxes.cc/
+        target: newtab
+        id: 9_930_seedboxescc
+      - title: Ultra
+        description: '"Plex optimized" servers to rent'
+        icon: https://ultra.cc/favicon.ico
+        url: https://ultra.cc/
+        target: newtab
+        id: 10_930_ultra
+      - title: SeedHost
+        description: >-
+          "Seedhost.eu is the oldest continuously operating seedbox hosting
+          provider on the internet."
+        icon: https://www.seedhost.eu/favicon.png
+        url: https://www.seedhost.eu/seedboxes.php
+        target: newtab
+        id: 11_930_seedhost
+      - title: Xirvik
+        description: Preconfigured seedbox servers
+        icon: https://www.xirvik.com/apple-touch-icon-180x180.png
+        url: https://www.xirvik.com/
+        target: newtab
+        id: 12_930_xirvik
+      - title: OVH
+        description: Large cloud server provider
+        url: https://www.ovhcloud.com/en/
+        target: newtab
+        id: 13_930_ovh
+      - title: SoYouStart
+        description: Another dedicated server host
+        icon: https://www.soyoustart.com/us/images/favicon.ico
+        url: https://www.soyoustart.com/us/
+        target: newtab
+        id: 14_930_soyoustart
+      - title: PulsedMedia
+        description: Inexpensive seedbox provider
+        url: https://pulsedmedia.com/
+        target: newtab
+        id: 15_930_pulsedmedia
+      - title: Cloudboxes.io
+        description: Seedboxes with impressive 20Gbps uplinks
+        icon: >-
+          https://cloudboxes.io/assets/logos/favico-aa98188c9f665c723c9aa55c1bbe3dfa3bed1d566b673af2aea3fbd7d45c0a95.png
+        url: Cloudboxes.io
+        target: newtab
+        id: 16_930_cloudboxesio
+      - title: Seedbox.io
+        description: Shared and dedicated slots with 1Gbps+ uplinks
+        icon: >-
+          https://seedbox.io/wp-content/uploads/2021/03/cropped-favicon_192x192_created_by_logaster_2-180x180.png
+        url: https://seedbox.io/
+        target: newtab
+        id: 17_930_seedboxio
+      - title: Giga-Rapid.com
+        description: >-
+          Shared 1Gbps seedboxes with massive storage & lots of addon
+          applications.
+        icon: https://giga-rapid.com/assets/icons/apple-touch-icon.png
+        url: https://giga-rapid.com/products/seedboxes
+        target: newtab
+        id: 18_930_gigarapidcom
+  - name: Web-based Cloud Seedboxes
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Seedbox Hosting Providers
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Seedbox Setup Tools and Guides
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Tracker Frameworks
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Usenet
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Usenet
+        description: >-
+          Usenet is a worldwide distributed discussion system available on
+          computers.
+        icon: https://en.wikipedia.org/static/favicon/wikipedia.ico
+        url: https://en.wikipedia.org/wiki/Usenet
+        target: newtab
+        id: 0_628_usenet
+      - title: Usenet Newsgroup
+        description: >-
+          A Usenet newsgroup is a repository usually within the Usenet system,
+          for messages posted from many users in different locations using the
+          Internet.
+        icon: https://en.wikipedia.org/static/favicon/wikipedia.ico
+        url: https://en.wikipedia.org/wiki/Usenet
+        target: newtab
+        id: 1_628_usenetnewsgroup
+      - title: /r/Usenet
+        description: >-
+          a thriving community dedicated to helping users old and new understand
+          and use Usenet.
+        icon: https://www.redditstatic.com/desktop2x/img/favicon/ms-icon-144x144.png
+        url: https://www.reddit.com/r/Usenet
+        target: newtab
+        id: 2_628_rusenet
+      - title: /r/UsenetInvites
+        description: Requests and offers for Usenet indexers
+        icon: https://www.redditstatic.com/desktop2x/img/favicon/ms-icon-144x144.png
+        url: https://www.reddit.com/r/UsenetInvites
+        target: newtab
+        id: 3_628_rusenetinvites
+      - title: NZBLINK
+        description: >-
+          The NZBLNK™ URI scheme defines the format of NZBLNK™ links to identify
+          binary Usenet content and supplies some extra information to handle
+          that content correct (similar to magnet links, but for NZBs).
+        icon: https://nzblnk.info/nzblnk-logo.png
+        url: https://nzblnk.info/
+        target: newtab
+        id: 4_628_nzblink
+      - title: Usenet-Uploaders
+        description: Table of applications for uploading content to Usenet
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/animetosho/Nyuu/wiki/Usenet-Uploaders
+        target: newtab
+        id: 5_628_usenetuploaders
+      - title: QuickPar
+        description: Tool for reconstructing damaged/missing/corrupt Usenet binaries
+        icon: http://www.quickpar.org.uk/images/logo.gif
+        url: http://www.quickpar.org.uk/index.htm
+        target: newtab
+        id: 6_628_quickpar
+      - title: NZB Monkey
+        description: NZB download helper-tool
+        url: https://nzblnk.info/nzb-monkey/
+        target: newtab
+        id: 7_628_nzbmonkey
+      - title: Usenet Org Chart
+        description: >-
+          This is a simple overview of the current companies, backbones,
+          providers and resellers in the Usenet landscape.
+        url: >-
+          https://upload.wikimedia.org/wikipedia/commons/7/7d/Usenet_Providers_and_Backbones.svg
+        target: newtab
+        id: 8_628_usenetorgchart
+      - title: 'A Quick Guide to Choosing a Usenet Provider '
+        description: Reddit post by /u/FlickFreak
+        icon: https://www.redditstatic.com/desktop2x/img/favicon/ms-icon-144x144.png
+        url: >-
+          https://www.reddit.com/r/usenet/comments/a7ffm7/a_quick_guide_to_choosing_a_usenet_provider/
+        target: newtab
+        id: 9_628_aquickguidetochoosingausenetprovider
+      - title: Eweka
+        description: Netherlands-based Usenet provider
+        url: https://www.eweka.nl
+        target: newtab
+        id: 10_628_eweka
+      - title: Newsdemon
+        description: Cheap and cheerful Usenet provider with frequent discounts
+        icon: >-
+          https://www.newsdemon.com/wp-content/uploads/Untitled-1@0.5x-300x300.png
+        url: https://www.newsdemon.com/
+        target: newtab
+        id: 11_628_newsdemon
+      - title: Newsgroup Ninja
+        description: Popular Usenet provider with a competitive subscription fee
+        icon: >-
+          https://cms-static.newsgroup.ninja/s1/p/QGWnkNxuiPMNoXHNvBSjkR/r/pe6eVACcnVqGCifxcHQY4Y/c/K956mh5PymHrCkTZMKDVco/v/www.newsgroup.ninja/s/default/apple-touch-icon-57x57.png
+        url: https://www.newsgroup.ninja/en
+        target: newtab
+        id: 12_628_newsgroupninja
+      - title: Usenet Express
+        description: >-
+          UsenetExpress is a powerful new tier-1 Usenet provider that offers
+          strong security, a 10GB uplink per server and up to 150 streams for an
+          excellent price.
+        icon: https://www.usenetexpress.com/favicon.ico
+        url: https://usenetexpress.com/
+        target: newtab
+        id: 13_628_usenetexpress
+      - title: Usenet.Farm
+        description: Usenet reseller with 1000+ days retention.
+        url: https://usenet.farm/
+        target: newtab
+        id: 14_628_usenetfarm
+  - name: Usenet Providers
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Usenet Indexers
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: nZEDb
+        description: a fork of nnplus(2011) | NNTP / Usenet / Newsgroup indexer.
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/nZEDb/nZEDb
+        target: newtab
+        id: 0_1494_nzedb
+      - title: newznab-tmux
+        description: Laravel based usenet indexer
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/NNTmux/newznab-tmux
+        target: newtab
+        id: 1_1494_newznabtmux
+      - title: newznab
+        description: >-
+          newznab is a usenet indexing application, that makes building a usenet
+          community easy.
+        icon: https://www.newznab.com/favicon.ico
+        url: https://www.newznab.com/
+        target: newtab
+        id: 2_1494_newznab
+      - title: nZEDb-deploy
+        description: >-
+          A collection of scripts to automate and simplify the deployment of a
+          nZEDb Usenet Indexer using the new format of their GitHub repository.
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/PREngineer/nZEDb-deploy
+        target: newtab
+        id: 3_1494_nzedbdeploy
+      - title: NZBgeek
+        description: Affordable Usenet indexer operating since 2014.
+        icon: https://nzbgeek.info/apple-touch-icon.png
+        url: https://nzbgeek.info/
+        target: newtab
+        id: 4_1494_nzbgeek
+      - title: NZBFinder
+        description: >-
+          Usenet indexer and newznab API with a clean UI and 8+ year backlog of
+          NZBs.
+        icon: https://nzbfinder.ws/img/appicons/apple-touch-icon-120x120.png
+        url: https://nzbfinder.ws
+        target: newtab
+        id: 5_1494_nzbfinder
+      - title: DrunkenSlug
+        description: Popular NZB indexer with a free tier and decent retention.
+        icon: https://drunkenslug.com/themes/shared/img/favicon.ico
+        url: https://drunkenslug.com/
+        target: newtab
+        id: 6_1494_drunkenslug
+      - title: NZBCat
+        description: Meow cough nzb-hair-bal.
+        icon: https://nzb.cat/themes/shared/img/nzbcat-large.png
+        url: https://nzb.cat/
+        target: newtab
+        id: 7_1494_nzbcat
+      - title: DOGnzb
+        description: Invite-only NZB site.
+        url: https://dognzb.cr/login
+        target: newtab
+        id: 8_1494_dognzb
+      - title: omgwtfnzbs
+        description: Invite-only NZB indexer with a funny name.
+        icon: https://omgwtfnzbs.me/icons/apple-touch-icon.png
+        url: https://omgwtfnzbs.me/login
+        target: newtab
+        id: 9_1494_omgwtfnzbs
+  - name: Usenet Indexing Software
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Paid Indexers
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Free Indexers
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Usenet Clients
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: SABnzbd
+        description: SABnzbd is an Open Source Binary Newsreader written in Python.
+        icon: https://sabnzbd.org/images/favicon.ico
+        url: https://sabnzbd.org/
+        target: newtab
+        id: 0_1382_sabnzbd
+      - title: NZBget
+        description: Efficient Usenet downloader written in C++
+        url: https://nzbget.net/
+        target: newtab
+        id: 1_1382_nzbget
+      - title: Usenetic
+        description: The full-featured Usenet client for Mac OSX
+        icon: https://www.usenetic.com/favicons/apple-touch-icon.png
+        url: https://www.usenetic.com/
+        target: newtab
+        id: 2_1382_usenetic
+      - title: spotweb
+        description: >-
+          Spotweb is a decentralized Usenet community based on the Spotnet
+          protocol.
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/spotweb/spotweb
+        target: newtab
+        id: 3_1382_spotweb
+      - title: NZBVortex 3
+        description: Simply the best Usenet client for Mac
+        icon: https://www.nzbvortex.com/NZBVortex.png
+        url: https://www.nzbvortex.com/landing/
+        target: newtab
+        id: 4_1382_nzbvortex
+      - title: alt.binz
+        description: >-
+          alt.binz is a powerful binary newsreader, for downloading and managing
+          articles from Usenet.
+        url: https://www.altbinz.net/
+        target: newtab
+        id: 5_1382_altbinz
+  - name: Download Managers
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Jdownloader
+        description: >-
+          JDownloader is a free, open-source download management tool with a
+          huge community of developers that makes downloading as easy and fast
+          as it should be.
+        icon: https://jdownloader.org/lib/tpl/arctic/images/favicon.ico
+        url: https://jdownloader.org/jdownloader2
+        target: newtab
+        id: 0_1670_jdownloader
+      - title: Internet Download Manager
+        description: shareware download manager for Windows
+        icon: >-
+          https://www.internetdownloadmanager.com/register/IDMlib/images/idman_logos.png
+        url: https://www.internetdownloadmanager.com/
+        target: newtab
+        id: 1_1670_internetdownloadmanager
+      - title: Persepolis
+        description: >-
+          An open source download manager and GUI for Aria2 written in Python
+          with IDM like browser integration. Cross platfrom.
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/persepolisdm/persepolis
+        target: newtab
+        id: 2_1670_persepolis
+      - title: pyLoad
+        description: >-
+          Free and Open Source download manager written in Python and designed
+          to be extremely lightweight, easily extensible and fully manageable
+          via web
+        icon: https://pyload.net/img/icon.ico
+        url: https://pyload.net/
+        target: newtab
+        id: 3_1670_pyload
+      - title: Plowshare
+        description: Command-line tool and engine for managing sharing websites
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/mcrapet/plowshare
+        target: newtab
+        id: 4_1670_plowshare
+  - name: DDL Tools
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Custom Google Search Engines
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: FTP Indexers
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: DDL Search Engines and Crawlers
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: DDL Link Sites
     displayData:
       sortBy: default
       rows: 1
@@ -405,7 +1736,18 @@ sections:
         url: https://fora.snahp.eu/
         target: newtab
         id: 0_2011_snahp
-  - name: File Hosts
+      - title: HDEncode
+        icon: https://hdencode.org/wp-content/uploads/2019/07/hdlogo.png
+        url: https://hdencode.org/
+        target: newtab
+        id: 1_2011_hdencode
+      - title: WarezForums
+        description: Warez forum with films, TV shows, ebooks, anime, games, and more.
+        icon: https://forum.dirtywarez.com/apple-touch-icon.png
+        url: https://forum.dirtywarez.com/
+        target: newtab
+        id: 2_2011_warezforums
+  - name: Premium Link Generators
     displayData:
       sortBy: default
       rows: 1
@@ -413,6 +1755,55 @@ sections:
       collapsed: false
       hideForGuests: false
     items: []
+  - name: Premium Link Hosts
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Mega
+        description: 'Secure Cloud Storage and Communication Privacy by Design '
+        icon: https://mega.io/favicon.ico?v=3
+        url: https://mega.nz/
+        target: newtab
+        id: 0_945_mega
+      - title: File sharing table
+        description: Regularly updated table of information about file hosts.
+        icon: https://github.com/fluidicon.png
+        url: https://nafanz.github.io/
+        target: newtab
+        id: 1_945_filesharingtable
+      - title: Rapid Gator
+        description: Share files with your friends. No limits. Easy as ever.
+        url: https://rapidgator.net
+        target: newtab
+        id: 2_945_rapidgator
+      - title: 4Shared
+        description: >-
+          Search, Store and Share easily Upload, discover and share files
+          without a hitch!
+        url: https://www.4shared.com/
+        target: newtab
+        id: 3_945_shared
+      - title: Mediafire
+        description: File storage and sharing made simple
+        icon: https://www.mediafire.com/favicon.ico
+        url: https://www.mediafire.com/
+        target: newtab
+        id: 4_945_mediafire
+      - title: Sendspace
+        icon: https://www.sendspace.com/favicon.ico
+        url: https://www.sendspace.com/
+        target: newtab
+        id: 5_945_sendspace
+      - title: ZippyShare
+        description: 'elect or Drag & Drop your files for upload (maximum 500 MB each):'
+        icon: https://www.zippyshare.com/images/favicon.ico
+        url: https://www.zippyshare.com/
+        target: newtab
+        id: 6_945_zippyshare
   - name: Open Directories
     displayData:
       sortBy: default
@@ -420,7 +1811,42 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-    items: []
+    items:
+      - title: httpdirfs
+        description: A filesystem which allows you to mount HTTP directory listings
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/fangfufu/httpdirfs
+        target: newtab
+        id: 0_1583_httpdirfs
+      - title: The Eye
+        description: >-
+          The Eye is a non-profit website dedicated to content archival and
+          long-term preservation.
+        url: https://the-eye.eu/public/
+        target: newtab
+        id: 1_1583_theeye
+      - title: FileMasta
+        description: >-
+          Search servers for video, music, books, software, games, subtitles and
+          much more
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/ohhsodead/FileMasta
+        target: newtab
+        id: 2_1583_filemasta
+      - title: /r/opendirectories
+        description: >-
+          Unprotected directories of pics, vids, music, software, and otherwise
+          interesting files.
+        icon: https://www.redditstatic.com/desktop2x/img/favicon/ms-icon-144x144.png
+        url: https://www.reddit.com/r/opendirectories
+        target: newtab
+        id: 3_1583_ropendirectories
+      - title: 'OpenDirectoryDownloader '
+        description: Indexes open directories
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/KoalaBear84/OpenDirectoryDownloader
+        target: newtab
+        id: 4_1583_opendirectorydownloader
   - name: HD Streaming
     displayData:
       sortBy: default
@@ -429,7 +1855,7 @@ sections:
       collapsed: false
       hideForGuests: false
     items: []
-  - name: Music
+  - name: Big Media Libraries
     displayData:
       sortBy: default
       rows: 1
@@ -437,21 +1863,143 @@ sections:
       collapsed: false
       hideForGuests: false
     items: []
-  - name: Movies
+  - name: TV
     displayData:
       sortBy: default
       rows: 1
       cols: 1
       collapsed: false
       hideForGuests: false
-    items:
-      - title: IMDB
-        description: Find movies, TV shows, celebrities, and more
-        icon: Movies/imdb.png
-        url: https://www.imdb.com/
-        target: newtab
-        id: 0_627_imdb
-  - name: Games
+    items: []
+  - name: Anime
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Cartoons
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Sports Streaming
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Specialty Sites
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Third Party Hosts
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Media Centre Applications
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Stremio
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Plex
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Plex Plugins
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Plex Requests
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Plex Scripts and Tools
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Plex Shares
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Plex Transcoding
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Plex Logging and Metrics
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Plex Clients
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Kodi
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Gaming
     displayData:
       sortBy: default
       rows: 1
@@ -496,7 +2044,39 @@ sections:
         url: https://fitgirl-repacks.site/
         target: newtab
         id: 4_493_fitgirlrepacks
-  - name: Email
+  - name: Repacks
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: ROMs
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Console Games
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Homebrew and Custom Firmware
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Music
     displayData:
       sortBy: default
       rows: 1
@@ -504,119 +2084,489 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: FakeMailGenerator
-        description: Your fake e-mail address is ready
-        icon: http://www.fakemailgenerator.com/apple-touch-icon-180x180.png
-        url: http://www.fakemailgenerator.com
-        target: newtab
-        id: 0_488_fakemailgenerator
-      - title: FakeMail
-        description: Temp Mail Address Protects Your Privacy
-        icon: https://fdn.r.worldssl.net/img/fake-email-address.png
-        url: https://www.fakemail.net/
-        target: newtab
-        id: 1_488_fakemail
-      - title: ProtonMail
-        description: Secure Email Based in Switzerland
-        icon: https://proton.me/favicons/apple-touch-icon.png
-        url: https://proton.me/mail
-        target: newtab
-        id: 2_488_protonmail
-      - title: https://cock.li/
-        description: Yeah it's mail with cocks
-        url: https://cock.li/
-        target: newtab
-        id: 3_488_httpscockli
-      - title: 10 Minute Mail
-        description: Disposable, private mailboxes
-        url: https://10minutemail.net/
-        target: newtab
-        id: 4_488_minutemail
-    icon: fa-solid fa-mailbox
-  - name: VPNs
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: r/VPNs
-        description: A community for VPN users and those who want to know more about them.
-        icon: >-
-          https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-180x180.png
-        url: https://www.reddit.com/r/VPN/
-        target: newtab
-        id: 0_359_rvpns
-      - title: ExpressVPN
-        description: https://www.expressvpn.com/go/vpnmentor
-        icon: >-
-          https://www.expressvpn.com/frtr/assets/images/edsv2-favicon/apple-touch-icon.png
-        url: https://www.expressvpn.com/
-        target: newtab
-        id: 1_359_expressvpn
-      - title: PrivateInternetAccess
-        icon: >-
-          https://assets-cms.privateinternetaccess.com/img/frontend/pia-favicon_32x32.png?v=111010
-        url: https://www.privateinternetaccess.com/
-        target: newtab
-        id: 2_359_privateinternetaccess
-      - title: ProtonVPN
-        icon: https://protonvpn.com/assets/img/apple-touch-icon.png
-        url: https://protonvpn.com/
-        target: newtab
-        id: 3_359_protonvpn
-      - title: CyberGhost
-        icon: https://www.cyberghostvpn.com/offer/favicon.png
-        url: https://www.cyberghostvpn.com/
-        target: newtab
-        id: 4_359_cyberghost
-      - title: PrivateVPN
-        icon: https://privatevpn.com/_design/images/favicon.ico
-        url: https://privatevpn.com/
-        target: newtab
-        id: 5_359_privatevpn
-      - title: TunnelBear
-        icon: https://www.tunnelbear.com/apple-touch-icon-180x180.png
-        url: https://www.tunnelbear.com/
-        target: newtab
-        id: 6_359_tunnelbear
-      - title: n2n
+      - title: MOOVAL
         description: >-
-          n2n is a light VPN software which makes it easy to create virtual
-          networks bypassing intermediate firewalls.
+          Easily move your playlists, tracks, and likes from one streaming
+          service to another.
+        icon: >-
+          https://www.mooval.de/assets/favicon-32b82f89dbe220c665e6eee419c6725a.png
+        url: https://www.mooval.de/
+        target: newtab
+        id: 0_1074_mooval
+      - title: Madsonic
+        description: >-
+          Madsonic is a web-based media library and media streamer with jukebox
+          functionality.
+        icon: https://www.madsonic.org/pages/favicon.ico
+        url: https://www.madsonic.org/pages/index.jsp
+        target: newtab
+        id: 1_1074_madsonic
+      - title: MusicBrainz
+        description: >-
+          MusicBrainz is an open music encyclopedia that collects music metadata
+          and makes it available to the public.
+        icon: >-
+          https://musicbrainz.org/static/images/favicons/apple-touch-icon-144x144.png
+        url: https://musicbrainz.org/
+        target: newtab
+        id: 2_1074_musicbrainz
+      - title: airsonic
+        description: >-
+          Airsonic is a free, web-based media streamer, providing ubiquitous
+          access to your music.
+        icon: https://airsonic.github.io/img/logo.png
+        url: https://airsonic.github.io/
+        target: newtab
+        id: 3_1074_airsonic
+      - title: Beets
+        description: >-
+          The purpose of beets is to get your music collection right once and
+          for all. It catalogs your collection, automatically improving its
+          metadata as it goes using the MusicBrainz database.
+        icon: https://pbs.twimg.com/profile_images/934307246/logo-square_normal.png
+        url: https://beets.io/
+        target: newtab
+        id: 4_1074_beets
+      - title: gonic
+        description: Music streaming server / subsonic server API implementation.
         icon: https://github.com/fluidicon.png
-        url: https://github.com/ntop/n2n
+        url: https://github.com/sentriz/gonic
         target: newtab
-        id: 7_359_nn
-      - title: PeerVPN
-        description: >-
-          PeerVPN is a software that builds virtual ethernet networks between
-          multiple computers.
-        url: https://peervpn.net/
+        id: 5_1074_gonic
+  - name: Music Streaming
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Spotify
+        description: Listening is everything
+        icon: https://open.spotifycdn.com/cdn/images/favicon32.8e66b099.png
+        url: https://spotify.com/
         target: newtab
-        id: 8_359_peervpn
-      - title: OpenVPN
-        description: >-
-          OpenVPN provides flexible VPN solutions to secure your data
-          communications, whether it's for Internet privacy, remote access for
-          employees, securing IoT, or for networking Cloud data centers.
-        icon: https://openvpn.net/wp-content/uploads/cropped-openvpn-180x180.png
-        url: https://openvpn.net/
-        target: newtab
-        id: 9_359_openvpn
-      - title: NordVPN
-        description: >-
-          encrypt your online activity to protect your private data from hackers
-          or snoopy advertisers.
+        id: 0_1483_spotify
+      - title: Deezer
+        description: The Power of Music
         icon: >-
-          https://s1.nordcdn.com/nordvpn/media/1.752.0/images/global/favicon/apple-touch-icon-144x144.png
-        url: https://nordvpn.com/
+          https://e-cdn-files.dzcdn.net/cache/images/common/favicon/favicon.a6a53d55264841165a904dbea19d5d73.ico
+        url: https://www.deezer.com/us/
         target: newtab
-        id: 10_359_nordvpn
-      - title: Mullvad
-        description: A Bitcoin-friendly, privacy-first VPN.
-        icon: https://mullvad.net/favicon.ico
-        url: https://mullvad.net/en/
+        id: 1_1483_deezer
+      - title: Bandcamp
+        description: >-
+          Bandcamp is an American online audio distribution platform founded in
+          2007
+        icon: bandcamp.png
+        url: https://bandcamp.com/
         target: newtab
-        id: 11_359_mullvad
+        id: 2_1483_bandcamp
+      - title: Soundcloud
+        description: Listen to music.
+        icon: soundcloud.png
+        url: https://soundcloud.com/
+        target: newtab
+        id: 3_1483_soundcloud
+      - title: Hikarinoakariost
+        description: Site with Japanese music
+        icon: >-
+          https://hikarinoakari.com/wp-content/uploads/nuevo/2022/05/cropped-gdfg-180x180.jpg
+        url: https://hikarinoakariost.info
+        target: newtab
+        id: 4_1483_hikarinoakariost
+  - name: Music Downloading
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: irs
+        description: A music downloader that understands your metadata needs.
+        icon: https://github.com/fluidicon.png
+        url: https://github.com/cooperhammond/irs
+        target: newtab
+        id: 0_1687_irs
+      - title: New Album Releases
+        description: Premium DDL links for full albums
+        url: https://newalbumreleases.net/
+        target: newtab
+        id: 1_1687_newalbumreleases
+      - title: KHInsider
+        description: >-
+          KHI offers video and PC game soundtracks for download in a very
+          otherwise difficult to get MP3 and lossless forms. 
+        icon: https://downloads.khinsider.com/images/favicon.ico
+        url: https://downloads.khinsider.com/
+        target: newtab
+        id: 2_1687_khinsider
+  - name: Spotify
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: iTunes
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Software
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Adobe CC
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Windows
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Ebooks
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Magazines
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Academic Papers and Material
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Textbooks
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Courses and Tutorials
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Audiobooks
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Comicbooks
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Manga
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Documentaries
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Fonts, Icons, and Graphics
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Automation
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: TV Automation
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Movie Automation
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Music Automation
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Subtitles Automation
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: P2P Networks
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Ripping, Transcoding, Converting, Encoding
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Cloud Storage
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: File Renaming and Tagging
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Mobile Apps
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Streaming Apps
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Torrent Apps
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: APKs
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Discord Servers
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: IPTV and DVR
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Acestreams
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: IRC
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: IRC Clients
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: IRC Networks
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: IRC Search Engines
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: DC++
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Full Movies On
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Piracy Blogs and News
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Content Discovery
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: PreDB Sites
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Dashboards and Homepages
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Proxy Sites
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: File Sharing Tools
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Stream Synchronisation
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Telegram Piracy
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+  - name: Miscellaneous
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
